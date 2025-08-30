@@ -1,1 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Markdown Notes</title>
+  <script src="/static/editor.js"></script>
+</head>
+<body>
+  <form method="POST" action="/add">
+    <input name="title" placeholder="Note Title" required>
+    <textarea name="content" placeholder="Write your markdown here..."></textarea>
+    <input name="vault" placeholder="Vault name" required>
+    <button type="submit">Save Note</button>
+  </form>
+</body>
+</html>
 
